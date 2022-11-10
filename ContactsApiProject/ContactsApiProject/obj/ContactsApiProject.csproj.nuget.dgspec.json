@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bilal\\OneDrive\\Desktop\\Hack-Day-Project\\ContactsApiProject\\ContactsApiProject\\ContactsApiProject.csproj": {}
+    "C:\\Users\\bilal\\OneDrive\\Desktop\\Hackday Project\\Hackday-Project\\ContactsApiProject\\ContactsApiProject\\ContactsApiProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bilal\\OneDrive\\Desktop\\Hack-Day-Project\\ContactsApiProject\\ContactsApiProject\\ContactsApiProject.csproj": {
+    "C:\\Users\\bilal\\OneDrive\\Desktop\\Hackday Project\\Hackday-Project\\ContactsApiProject\\ContactsApiProject\\ContactsApiProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bilal\\OneDrive\\Desktop\\Hack-Day-Project\\ContactsApiProject\\ContactsApiProject\\ContactsApiProject.csproj",
+        "projectUniqueName": "C:\\Users\\bilal\\OneDrive\\Desktop\\Hackday Project\\Hackday-Project\\ContactsApiProject\\ContactsApiProject\\ContactsApiProject.csproj",
         "projectName": "ContactsApiProject",
-        "projectPath": "C:\\Users\\bilal\\OneDrive\\Desktop\\Hack-Day-Project\\ContactsApiProject\\ContactsApiProject\\ContactsApiProject.csproj",
+        "projectPath": "C:\\Users\\bilal\\OneDrive\\Desktop\\Hackday Project\\Hackday-Project\\ContactsApiProject\\ContactsApiProject\\ContactsApiProject.csproj",
         "packagesPath": "C:\\Users\\bilal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bilal\\OneDrive\\Desktop\\Hack-Day-Project\\ContactsApiProject\\ContactsApiProject\\obj\\",
+        "outputPath": "C:\\Users\\bilal\\OneDrive\\Desktop\\Hackday Project\\Hackday-Project\\ContactsApiProject\\ContactsApiProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bilal\\AppData\\Roaming\\NuGet\\NuGet.Config",
