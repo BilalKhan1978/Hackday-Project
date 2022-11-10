@@ -49,7 +49,7 @@ const ContactListing = () => {
                 <table>
                     <thead >
                         <tr>
-                            <td>Full Name</td>
+                            <td>Name</td>
                             <td>Email</td>
                             <td>Phone</td>
                             <td>Address</td>

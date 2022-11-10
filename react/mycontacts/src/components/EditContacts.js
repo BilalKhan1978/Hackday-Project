@@ -39,10 +39,16 @@ const EditContacts = () =>{
         headers:{"content-type":"application/json"},
         body:JSON.stringify(contactdata)
       }).then((res)=>{
-        alert('Saved successfully.')
-        navigate('/');
+        if(res.ok)
+        {
+          alert('Saved successfully.')
+          navigate('/');
+          return;
+        }        
+        alert('Error occured. Required fields are empty.')
       }).catch((err)=>{
         console.log(err.message)
+        alert('Error occured')
       })
     }
 
@@ -57,7 +63,7 @@ const EditContacts = () =>{
                     <form onSubmit={handelsubmit}>
                   
                         <div>
-                        <label>Full Name</label>
+                        <label>*Name</label>
                         </div>
                         <div>
                         <input value={fullName} onChange={e=>fullNameChange(e.target.value)}></input>
@@ -69,7 +75,7 @@ const EditContacts = () =>{
                         <input value={email} onChange={e=>emailChange(e.target.value)}></input>
                         </div>
                         <div>
-                        <label>Phone</label>
+                        <label>*Phone</label>
                         </div>
                         <div>
                         <input value={phone} onChange={e=>phoneChange(e.target.value)}></input>
